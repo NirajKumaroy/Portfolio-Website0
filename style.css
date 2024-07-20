@@ -340,9 +340,9 @@ span {
 }
 
 h1.tit {
-  text-align: center;
-  padding-top: 40px;
-  font-size: 40px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 40px;
 }
 
 .sub-title {
