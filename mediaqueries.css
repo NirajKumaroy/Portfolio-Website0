@@ -47,15 +47,21 @@
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 480px) {
   
     footer {
+      width: 410px;
       height: 40vh;
     }
     #profile {
       height: 83vh;
       margin-bottom: 0;
     }
+    #about{
+      padding-top: 300px;
+      bottom: 310px;
+    }
+   
     article {
       font-size: 1rem;
     }
