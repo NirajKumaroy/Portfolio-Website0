@@ -49,19 +49,22 @@
   
   @media screen and (max-width: 480px) {
   
-    footer {
+    footer{
       width: 410px;
-      height: 40vh;
+      height: 30vh;
     }
     #profile {
-      height: 83vh;
+      height: 60vh;
       margin-bottom: 0;
     }
     #about{
-      padding-top: 300px;
-      bottom: 310px;
+      padding-top: 0px;
+      bottom: auto;
     }
-   
+    #services{
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
     article {
       font-size: 1rem;
     }
@@ -74,8 +77,13 @@
     .btn-container {
       flex-wrap: wrap;
     }
-    .contact-info-container {
-      margin: 0;
+    #contact{
+      padding-top: 0px;
+    }
+    .contact-container {
+      padding-top: 80px;
+      height: 55vh;
+      padding-bottom: 0px;
     }
     .contact-info-container p,
     .nav-links li a {
