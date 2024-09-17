@@ -48,10 +48,10 @@
   }
   
   @media screen and (max-width: 480px) {
-  
+
     footer{
       width: 410px;
-      height: 30vh;
+      height: 40vh;
     }
     #profile {
       height: 60vh;
@@ -79,6 +79,12 @@
     }
     #contact{
       padding-top: 0px;
+    }
+    .contact-input{
+      width: 80vw;
+    }
+    .contact-right {
+      display: none;
     }
     .contact-container {
       padding-top: 80px;
@@ -108,7 +114,11 @@
     .section__text__p2 {
       font-size: 1.25rem;
     }
+    .title1{
+      padding-bottom: 50px;
+    }
     .title {
+      padding-top: 50%;
       font-size: 2rem;
     }
     .text-container {

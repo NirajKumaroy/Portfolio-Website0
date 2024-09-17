@@ -654,8 +654,6 @@ a:hover{
   padding: 7px;
 }
 
-
-
 .title1 {
   text-align: center;
   font-size: 40px;
@@ -663,12 +661,3 @@ a:hover{
   padding-bottom: 9%;
 }
 
-@media (max-width:800px) {
-  .contact-input{
-      width: 80vw;
-  }
-  .contact-right {
-      display: none;
-  }
-  
-}
